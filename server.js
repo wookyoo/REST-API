@@ -4,6 +4,10 @@ const bodyParser = require('body-parser');
 const server = express();
 server.use(bodyParser.json());  // server request can read with json format
 
+server.listen(3000, () => {
+  console.log("The server is running ");
+})
+
 const users = [
   {
       id:"helloid",

@@ -1,16 +1,20 @@
 {
   "name": "rest-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple REST-API practice built with Node.js\r Users management REST-API",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "npm install dotenv"
+  },
+  "author": "Wookyoo Kang",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mongoose": "^7.5.2"
+    "nodemon": "^3.0.1"
   }
 }
